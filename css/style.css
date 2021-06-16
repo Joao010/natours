@@ -21,7 +21,6 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
   padding: 3rem;
@@ -43,17 +42,17 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -69,7 +68,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -87,7 +86,7 @@ body {
   */
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   animation: moveInRight 1s ease-out;
 
   display: block;
@@ -162,7 +161,7 @@ body {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
-.btn-white {
+.btn--white {
   background: #fff;
   color: #777;
 }
@@ -172,7 +171,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 100%;
-  border-radius: 10rem;
+  border-radius: 5rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -180,7 +179,7 @@ body {
   transition: all .4s;
 }
 
-.btn-white::after {
+.btn--white::after {
   background: #fff;
 }
 
@@ -189,7 +188,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom .5s ease-out 1s;
   animation-fill-mode: backwards;
 }
