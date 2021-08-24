@@ -1,3 +1,5 @@
+@import "../base/animations";
+
 .btn {
   &:link,
   &:visited {
@@ -22,7 +24,7 @@
   }
   
   &:active {
-    transform: translateY(-1px);
+    transform: translateY(10rem);
     box-shadow: 0 .5rem 1rem rgba($color-black,.2);
   }
   
